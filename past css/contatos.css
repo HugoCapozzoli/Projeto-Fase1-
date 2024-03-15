@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+    
+}
+
+.main-contatos{
+    background: #ffffff;
+    background: -webkit-linear-gradient(181deg, #ffffff 0%, #3f3fdd 100%);
+    background: linear-gradient(181deg, #a9a7a7 0%, #3f3fdd 100%);
+     display: flex;
+     width: 100%;
+     height: 800px;
+     background-color: #2f72b5;
+     flex-direction: column;
+     align-items: center;
+     justify-content: start;
+     padding-top: 100px;
+ }
+
+
+ .container-contatos{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    flex-direction: row;
+    }
+
+    /*tabela contatos*/
+
+    .tabela {
+        background-color: rgb(153, 153, 153);
+        border:1px solid #C0C0C0;
+        border-collapse:collapse;
+        padding:5px;
+        background: linear-gradient(to right, #f5f5f5, #a6a1ae);
+        box-shadow: 20px 20px 50px -30px #DBC4FF;
+    }
+    .tabela th {
+        border:1px solid #C0C0C0;
+        padding:5px;
+        background:#ffffff;
+    }
+    .tabela td {
+        border:1px solid #C0C0C0;
+        padding:5px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .table-div{
+        display: flex;
+        width: 500px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-bottom: 200px;
+        padding-left: 100px;
+    }
+
+
+    /*cards*/
+
+    section.cards {
+        display: flex;
+        padding: 32px;
+    }
+    
+    section.cards section.card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: white;
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        max-height: 300px;
+        margin-left: 32px;
+    }
+    
+    section.cards section.card:first-child {
+        margin-left: 0;
+    }
+    
+    section.cards section.card .icon {
+        width: 64px;
+        height: 64px;
+    }
+    
+    section.cards section.card img {
+        width: 100%;
+    }
+    
+    section.cards section.card h3 {
+        font-size: 100%;
+        margin: 16px 0;
+    }
+    
+    section.cards section.card span {
+        font-weight: 300;
+        max-width: 240px;
+        font-size: 80%;
+        margin-bottom: 16px;
+    }
+    
+    section.cards section.card button {
+        padding: 0.5rem 1rem;
+        text-transform: uppercase;
+        border-radius: 32px;
+        border: 0;
+        cursor: pointer;
+        font-size: 80%;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 16px 0;
+    }
+    
+    section.cards section.card.contact button {
+        background: linear-gradient(to right, #9F66FF, #DFCBFF);
+    }
+    section.cards section.card.shop button {
+        background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+    }
+    section.cards section.card.about button {
+        background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+    }
+    section.cards section.card.about button {
+        background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+    }
+    
+    
+    section.cards section.card.contact {
+        box-shadow: 20px 20px 50px -30px #DBC4FF;
+    }
+    section.cards section.card.shop {
+        box-shadow: 20px 20px 50px -30px #AFD6FF;
+    }
+    section.cards section.card.about {
+        box-shadow: 20px 20px 50px -30px #FFC1D5;
+    }
+    
+    @media screen and (max-width: 720px) {
+        section.cards {
+            flex-direction: column;
+        }
+    
+        section.cards section.card {
+            margin-left: 0;
+            margin-bottom: 32px;
+        }
+    
+        section.cards section.card:last-child {
+            margin-bottom: 0;
+        }
+    
+        section.cards section.card button {
+            font-size: 70%;
+        }
+    
+    }
+    
